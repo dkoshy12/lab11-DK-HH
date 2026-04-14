@@ -1,10 +1,6 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-# First example
+#https://github.com/dkoshy12/lab11-DK-HH
+#Partner 1: Daniel Koshy
+#Partner 2: Haseeb Haq
 import math
 
 
@@ -30,12 +26,12 @@ def subtract(a, b):
     return result
 
 
-def multiply(a, b):
+def mul(a, b):
     result = a * b
     return result
 
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
     result = b / a
@@ -51,6 +47,6 @@ def logarithm(a, b):
     return result
 
 
-def exponent(a, b):
+def exp(a, b):
     result = a ** b
     return result
